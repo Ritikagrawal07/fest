@@ -1,10 +1,10 @@
-Create tablo Fal_id int primary key, Festival use vasuhar(15). Honth marchar110114
+Create table Fal_id int primary key, Festival use vasuhar(15). Honth marchar110114
 
-Sheart into Pestival valu (1, "наких Пakrantzaпивку
+insert into Pestival valu (1, "наких Пakrantzaпивку
 
-sneest into Festival Value Maxum insert into Festival values, Pakahallandhan". "Augues
+insert into Festival Value Maxum insert into Festival values, Pakahallandhan". "Augues
 
-Imeest into Festival valuesia, "Dusshera", "October insert into Festival valusai, Diwali', 'Hovenber
+insert into Festival valuesia, "Dusshera", "October insert into Festival valusai, Diwali', 'Hovenber
 
 create table Festival Speciality Festival id int, Festival varchar(15) primary key, Upeciallity vat char1201, Uniqueness varchar(20 FOREIGN REY (Festival id) REFРЕКЕНСЕЙ Festival (Festival id
 
@@ -12,9 +12,9 @@ insert into Festival Speciality values(i, "Makar Sakranti", "Worship Lozo Surya"
 
 insert into Festival Speciality valuen(, "Holl", "Holika Dahan", "Spraying coloura:
 
-Insert into Festival Speciality values13, "Raksha Bandhan", "Care to sisters", "Sisters tie Rakhi")
+Insert into Festival Speciality values(13, "Raksha Bandhan", "Care to sisters", "Sisters tie Rakhi")
 
-insert into Festival_speciality values 14, "Dusshers", "Worship Maa Durga"," Playing Dandiyaa")
+insert into Festival_speciality values (14, "Dusshers", "Worship Maa Durga"," Playing Dandiyaa")
 
 insert into Festival Speciality values (5, "Diwali", "Worship Mas Laxmi", "Burning Crackers");
 
@@ -22,18 +22,20 @@ create table Festival Events (Event id int, Festival name varchar (15) primary k
 
 insert into Festival Events values (1, "Makar Sakranti", "Eating Sweets", "Yes");
 
-insert into Festival Events values (2, "Holi", "Bhangra", "Yes"); Ineert into Festival Events values (3, "Raksha Bandhan", "Gift to Sister", "No":
+insert into Festival Events values (2, "Holi", "Bhangra", "Yes");
+insert into Festival Events values (3, "Raksha Bandhan", "Gift to Sister", "No");
 
-Insert into Festival Events values (4, "Dusshera", "Ravan Dahan", "Yes"); Insert into Festival Events values (5, "Diwali", "Lightning Houses", "No"
+Insert into Festival Events values (4, "Dusshera", "Ravan Dahan", "Yes"); 
+Insert into Festival Events values (5, "Diwali", "Lightning Houses", "No");
 
 create table Budget of events (Event id int, Event varchar (20), Locality varchar(10), Budget int POREIGN KEY (Event id) REFERENCES Festival Events (Event_id) };
 
-insert into Bidrot of events values (1, "Makar Sakranti","Indoor", 200)
+insert into Budget of events values (1, "Makar Sakranti","Indoor", 200);
 
-Engert into Budget of events values (2, "Holi", "Indoor", 2000);
+insert into Budget of events values (2, "Holi", "Indoor", 2000);
 
-Lusart Lutio Rudent of events values (3, "Raksha Bandhan", "Indoor", 50011
+insert into Budget of events values (3, "Raksha Bandhan", "Indoor", 50011);
 
-Insert Luta miaget of event values (4) Dusshera", "Outdoor", 50000);
+insert into Budget of event values (4 Dusshera", "Outdoor", 50000);
 
-Insert Inty Baden of eval(5,Diwali", "Outdoor", 10000);
+insert into Budget of events values(5,Diwali", "Outdoor", 10000);
