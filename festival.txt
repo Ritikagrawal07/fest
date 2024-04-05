@@ -31,7 +31,7 @@ insert into Festival Events values (3, "Raksha Bandhan", "Gift to Sister", "No")
 Insert into Festival Events values (4, "Dusshera", "Ravan Dahan", "Yes"); 
 Insert into Festival Events values (5, "Diwali", "Lightning Houses", "No");
 
-create table Budget of events (Event id int, Event varchar (20), Locality varchar(10), Budget int POREIGN KEY (Event id) REFERENCES Festival Events (Event_id) );
+create table Budget of events (Event id int, Event varchar (20), Locality varchar(10), Budget int FOREIGN KEY (Event id) REFERENCES Festival Events (Event_id) );
 
 insert into Budget of events values (1, "Makar Sakranti","Indoor", 200);
 
